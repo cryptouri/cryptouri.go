@@ -16,7 +16,7 @@ cryptographic objects including keys, signatures, and digests.
 import "github.com/cryptouri/cryptouri-go"
 ```
 
-[Documentation][docs-link]
+[Documentation][godoc-link]
 
 ## About CryptoURI
 
