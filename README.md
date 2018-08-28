@@ -1,4 +1,4 @@
-# cryptouri.go [![Apache 2.0 licensed][license-shield]][license-link] [![GoDoc][godoc-shield]][godoc-link] [![Go Report Card][goreport-shield]][goreport-link] [![Build Status][build-shield]][build-link]
+# cryptouri.go [![Apache 2.0 licensed][license-shield]][license-link] [![GoDoc][godoc-shield]][godoc-link] [![Go Report Card][goreport-shield]][goreport-link] [![Build Status][build-shield]][build-link] [![Gitter Chat][gitter-image]][gitter-link]
 
 [license-shield]: https://img.shields.io/badge/license-Apache2-blue.svg
 [license-link]: https://github.com/cryptouri/cryptouri/blob/master/LICENSE
@@ -8,6 +8,8 @@
 [goreport-link]: https://goreportcard.com/report/github.com/cryptouri/cryptouri-go
 [build-shield]: https://secure.travis-ci.org/cryptouri/cryptouri-go.svg?branch=master
 [build-link]: http://travis-ci.org/cryptouri/cryptouri-go
+[gitter-image]: https://badges.gitter.im/badge.svg
+[gitter-link]: https://gitter.im/cryptouri/Lobby
 
 Go implementation of [CryptoURI]: a [URN]-like namespace for representing
 cryptographic objects including keys, signatures, and digests.
