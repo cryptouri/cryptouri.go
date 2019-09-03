@@ -1,21 +1,10 @@
 # cryptouri.go [![Apache 2.0 licensed][license-shield]][license-link] [![GoDoc][godoc-shield]][godoc-link] [![Go Report Card][goreport-shield]][goreport-link] [![Build Status][build-shield]][build-link] [![Gitter Chat][gitter-image]][gitter-link]
 
-[license-shield]: https://img.shields.io/badge/license-Apache2-blue.svg
-[license-link]: https://github.com/cryptouri/cryptouri/blob/master/LICENSE
-[godoc-shield]: https://godoc.org/github.com/cryptouri/cryptouri-go?status.svg
-[godoc-link]: https://godoc.org/github.com/cryptouri/cryptouri-go
-[goreport-shield]: https://goreportcard.com/badge/github.com/cryptouri/cryptouri-go
-[goreport-link]: https://goreportcard.com/report/github.com/cryptouri/cryptouri-go
-[build-shield]: https://secure.travis-ci.org/cryptouri/cryptouri-go.svg?branch=master
-[build-link]: http://travis-ci.org/cryptouri/cryptouri-go
-[gitter-image]: https://badges.gitter.im/badge.svg
-[gitter-link]: https://gitter.im/cryptouri/Lobby
-
 Go implementation of [CryptoURI]: a [URN]-like namespace for representing
 cryptographic objects including keys, signatures, and digests.
 
 ```
-import "github.com/cryptouri/cryptouri-go"
+import "github.com/cryptouri/cryptouri.go/"
 ```
 
 [Documentation][godoc-link]
@@ -54,10 +43,6 @@ Have questions? Want to suggest a feature or change?
 * [Gitter]: web-based chat about **cryptouri**
 * [Google Group]: join via web or email ([cryptouri+subscribe@googlegroups.com])
 
-[Gitter]: https://gitter.im/cryptouri/Lobby
-[Google Group]: https://groups.google.com/forum/#!forum/cryptouri
-[cryptouri+subscribe@googlegroups.com]: mailto:cryptouri+subscribe@googlegroups.com
-
 ## Code of Conduct
 
 We abide by the [Contributor Covenant][cc] and ask that you do as well.
@@ -67,7 +52,7 @@ For more information, please see [CODE_OF_CONDUCT.md].
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at:
-<https://github.com/cryptouri/cryptouri-go>
+<https://github.com/cryptouri/cryptouri.go>
 
 Unless you explicitly state otherwise, any contribution intentionally
 submitted for inclusion in the work by you, as defined in the Apache-2.0
@@ -88,9 +73,27 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-[Bech32]: https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
+[//]: # (badges)
+
+[godoc-shield]: https://godoc.org/github.com/cryptouri/cryptouri.go?status.svg
+[godoc-link]: https://godoc.org/github.com/cryptouri/cryptouri.go
+[license-shield]: https://img.shields.io/badge/license-Apache2-blue.svg
+[license-link]: https://github.com/cryptouri/cryptouri.go/blob/develop/LICENSE
+[goreport-shield]: https://goreportcard.com/badge/github.com/cryptouri/cryptouri.go
+[goreport-link]: https://goreportcard.com/report/github.com/cryptouri/cryptouri.go
+[build-shield]: https://secure.travis-ci.org/cryptouri/cryptouri.go.svg?branch=develop
+[build-link]: http://travis-ci.org/cryptouri/cryptouri.go
+[gitter-image]: https://badges.gitter.im/badge.svg
+[gitter-link]: https://gitter.im/cryptouri/Lobby
+
+[//]: # (general links)
+
+[Bech32]: https://github.com/bitcoin/bips/blob/develop/bip-0173.mediawiki
 [cc]: https://contributor-covenant.org
 [CryptoURI]: https://cryptouri.org
-[CODE_OF_CONDUCT.md]: https://github.com/cryptouri/cryptouri-rs/blob/master/CODE_OF_CONDUCT.md
+[CODE_OF_CONDUCT.md]: https://github.com/cryptouri/cryptouri-rs/blob/develop/CODE_OF_CONDUCT.md
 [RFC 3986]: https://tools.ietf.org/html/rfc3986
 [URN]: https://en.wikipedia.org/wiki/Uniform_Resource_Name
+[Gitter]: https://gitter.im/cryptouri/Lobby
+[Google Group]: https://groups.google.com/forum/#!forum/cryptouri
+[cryptouri+subscribe@googlegroups.com]: mailto:cryptouri+subscribe@googlegroups.com
