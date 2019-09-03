@@ -82,7 +82,7 @@ limitations under the License.
 [goreport-shield]: https://goreportcard.com/badge/github.com/cryptouri/cryptouri.go
 [goreport-link]: https://goreportcard.com/report/github.com/cryptouri/cryptouri.go
 [build-shield]: https://secure.travis-ci.org/cryptouri/cryptouri.go.svg?branch=develop
-[build-link]: http://travis-ci.org/cryptouri/cryptouri.go
+[build-link]: https://travis-ci.org/cryptouri/cryptouri.go
 [gitter-image]: https://badges.gitter.im/badge.svg
 [gitter-link]: https://gitter.im/cryptouri/Lobby
 
